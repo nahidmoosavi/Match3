@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2657918805147226064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2657918805147226066}
+  - component: {fileID: 2657918805147226067}
+  m_Layer: 0
+  m_Name: Bootstrapper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2657918805147226066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657918805147226064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2657918805147226067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657918805147226064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78bfb24f9b7874df58e5dc6602622c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameView: {fileID: 2363970117933367644, guid: 3b86fa0fd65c64c16a97005a1e5ba38c, type: 3}
+  tilePrefab: {fileID: 8141717413646974555, guid: 2a76dc84505fc4cfeb726902299d37c2, type: 3}
+  levelData: {fileID: 11400000, guid: e681064d1f69645c3a6ac466a655c631, type: 2}
+  scoringRules: {fileID: 11400000, guid: ac7d8f083656f411f8662cdf6271dac2, type: 2}
+  gameConfig: {fileID: 11400000, guid: 011c1577ddc9549918765c4d99b01b4c, type: 2}
+  specialTiles:
+  - {fileID: 11400000, guid: f1e666353ac624a79b213deac367d371, type: 2}
+  - {fileID: 11400000, guid: 5171ac69688704838b5b435057733161, type: 2}
+  - {fileID: 11400000, guid: 71fff636050bd4259992cfc9a194ac14, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a60c295da41f42799f29a07c65360a7, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  boardWidth: 6
+  boardHeight: 6
+  movesAllowed: 20
+  targetScore: 200
+  tileDistributions:
+  - tile: {fileID: 11400000, guid: 93113cef1a8144c9d84808160668252b, type: 2}
+    spawnChance: 0.25
+  - tile: {fileID: 11400000, guid: 3039cff1826544d1188c37636a94d862, type: 2}
+    spawnChance: 0.25
+  - tile: {fileID: 11400000, guid: 5461a605d627a48489738c2028ffd35e, type: 2}
+    spawnChance: 0.25
+  - tile: {fileID: 11400000, guid: c00d5931db42e4046935629846969946, type: 2}
+    spawnChance: 0.25
