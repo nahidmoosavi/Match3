@@ -10,6 +10,7 @@ namespace MVP.Views
         private SpriteRenderer tileRenderer;
 
         public event Func<Task> OnTileClicked;
+        public Transform Transform => transform;
         
         public override void InitializeView()
         {

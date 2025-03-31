@@ -69,7 +69,7 @@ namespace MVP.Presenter
             foreach (var tilePos in tilesToRemove)
             {
                 if (!_tilePresenters.TryGetValue(tilePos, out var presenter)) continue;
-                var tileTransform = (presenter.TileView as MonoBehaviour)?.transform;
+                var tileTransform = presenter.TileView.Transform;
                 if (tileTransform != null)
                 {
                     removalAnimations.Add(_boardAnimator.AnimateTileRemoval(tileTransform, cancellationToken));
@@ -95,7 +95,7 @@ namespace MVP.Presenter
             foreach (var movement in movedTiles.MovedTiles)
             {
                 if (!_tilePresenters.TryGetValue(movement.Value, out var presenter)) continue;
-                var tileTransform = (presenter.TileView as MonoBehaviour)?.transform;
+                var tileTransform = presenter.TileView.Transform;
 
                 if (tileTransform == null) continue;
                 var targetPos = movement.Value.ToWorldPosition(_boardModel.Width, _boardModel.Height);
